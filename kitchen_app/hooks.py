@@ -5,6 +5,21 @@ app_description = "Kitchen App POS"
 app_email = "irshadsha164@gmail.com"
 app_license = "mit"
 
+
+doc_events = {
+    "POS Invoice": {
+        "on_submit": "kitchen_app.api.handle_kitchen_order"
+    }
+}
+fixtures = [
+    {
+        "doctype": "POS Profile"
+    },
+    {
+        "doctype": "Web Page",
+        "filters": [["name", "=", "pharmacy-order"]]
+    }
+]
 # Apps
 # ------------------
 
