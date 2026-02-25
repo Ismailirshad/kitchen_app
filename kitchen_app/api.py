@@ -5,9 +5,9 @@ def handle_kitchen_order(doc, method):
 
     if not doc.is_pos:
         return
+    create_kitchen_order(doc)
     
-    if doc.pos_profile == "Kitchen Order":
-        create_kitchen_order(doc)
+        
      
 def create_kitchen_order(doc):
     kitchen = frappe.get_doc({
