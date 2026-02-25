@@ -11,15 +11,7 @@ doc_events = {
         "on_submit": "kitchen_app.api.handle_kitchen_order"
     }
 }
-fixtures = [
-    {
-        "doctype": "POS Profile"
-    },
-    {
-        "doctype": "Web Page",
-        "filters": [["name", "=", "pharmacy-order"]]
-    }
-]
+
 # Apps
 # ------------------
 
