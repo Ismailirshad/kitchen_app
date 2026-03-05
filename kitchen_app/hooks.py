@@ -15,7 +15,7 @@ doc_events = {
 fixtures = [
     {"dt": "Web Page", "filters": [["name", "in", ["kitchen-app-management", "kitchen-device-selector"]]]},
     {"dt": "Print Format", "filters": [["name", "in", ["Kitchen Order Ticket"]]]},
-    {"dt": "Custom Field", "filters": [["name", "in", ["POS Profile-custom_enable_kitchen_app","POS Profile-custom_kitchen_device","POS Profile-custom_branch"]]]},
+    {"dt": "Custom Field", "filters": [["name", "in", ["POS Profile-custom_enable_kitchen_app","POS Profile-custom_kitchen_device","POS Profile-custom_branch","POS Invoice-custom_branch"]]]},
     
 ]
 # Apps
