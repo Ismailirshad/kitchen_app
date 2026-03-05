@@ -9,7 +9,8 @@
   "kitchen_pos_invoice",
   "status",
   "order_datetime",
-  "customer"
+  "customer",
+  "device_id"
  ],
  "fields": [
   {
@@ -35,12 +36,18 @@
    "fieldtype": "Link",
    "label": "Customer",
    "options": "Customer"
+  },
+  {
+   "fieldname": "device_id",
+   "fieldtype": "Link",
+   "label": "Device Id",
+   "options": "Kitchen Device"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-25 13:25:08.763912",
+ "modified": "2026-03-02 11:04:52.385748",
  "modified_by": "Administrator",
  "module": "Kitchen App",
  "name": "Kitchen Order",

@@ -12,8 +12,9 @@ doc_events = {
     }
 }
 
-fixtures=[
-    {"dt":"Web Page","filters":[["name","in",["kitchen-app-management"]]]}
+fixtures = [
+    {"dt": "Web Page", "filters": [["name", "in", ["kitchen-app-management", "kitchen-device-selector"]]]},
+    {"dt": "Print Format", "filters": [["name", "in", ["Kitchen Order Ticket"]]]},
 ]
 # Apps
 # ------------------
